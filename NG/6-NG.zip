@@ -1,0 +1,903 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+    <head>
+<script src="/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1490203552000" type="text/javascript"></script><script src="/jslibrary/1487809120000/sfdc/VFRemote.js" type="text/javascript"></script><script src="/jslibrary/1482273244000/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery-2.1.4.min.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/webfont.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/handlebars-v3.0.3.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery-ui.min.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/imagesloaded.pkgd.min.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.ba-throttle-debounce.min.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.simplePagination.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.bxslider.min.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/fancybox/jquery.fancybox@1.js?v=2.1.5" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/fancybox/helpers/jquery.fancybox-media.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.placeholder.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.waypoints.min.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.magnific-popup.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/namespace.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/extensions.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/utilities.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/common.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/sliders.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/shared.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/support-api.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/support-home.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/main.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jcook.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/fn.alert.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/fn.survey.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/import/article.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/recently-viewed-articles.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/related-articles.js" type="text/javascript"></script><script src="/resource/1485592701000/kbchat/js/vendor/jquery.ajax-cross-origin.min.js" type="text/javascript"></script><script src="/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/jslibrary/1487809120000/sfdc/VFState.js" type="text/javascript"></script><link class="user" href="/resource/1485592701000/kbchat/css/styles.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/alert.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/import/header.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/import/footer.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/vendor/jquery-ui.min.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/vendor/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/vendor/jquery.bxslider.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/css/vendor/magnific-popup.css" rel="stylesheet" type="text/css" /><link class="user" href="/resource/1485592701000/kbchat/js/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" rel="stylesheet" type="text/css" /><script type="text/javascript">
+Visualforce.remoting.Manager.add(new $VFRM.RemotingProviderImpl({"vf":{"vid":"06680000000BZBu","xhr":false,"dev":false,"tst":false,"dbg":false,"tm":1490263411842,"ovrprm":false},"actions":{"NG_ArticleDetailController":{"ms":[{"name":"getSupportModels","len":0,"ns":"","ver":37.0,"csrf":"VmpFPSxNakF4Tnkwd015MHlObFF4TURvd016b3pNUzQ0TkRKYSxJR0xENEdURE0yb0ROVVNlSEpBbHgxLFlqTmtZV1V4"}],"prm":0}},"service":"apexremote"}));
+</script><meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<meta HTTP-EQUIV="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT" />
+
+        <meta content="o4_L4ijkO5gpAXOj-OXl-37yOkok3ygIKVq3Z-SVb08" name="google-site-verification" />
+        <meta charset="utf-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="chrome=1" http-equiv="X-UA-Combatible" />
+        <title>WNAP320 Firmware Version 3.5.5.0 | Answer | NETGEAR Support</title>
+        <link href="/resource/1485592701000/kbchat/images/favicon.ico" rel="shortcut icon" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="WNAP320 Firmware Version 3.5.5.0" name="description" />
+        <meta content="30374" name="description" />
+        <meta content="Knowledge Article" name="document_type" />
+        <meta content="Access point N" name="category" />
+        <meta content="WNAP320" name="model" />
+        <meta content="" name="robots" />
+        
+        <script type="text/javascript">
+          window.$Label = window.$Label || {};
+          $Label.SupportDomain = 'http://www.netgear.com';
+        </script>
+    
+    
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <apex:includescript value="/resource/1485592701000/kbchat/js/vendor/html5shiv.js"/>
+    <apex:includescript value="/resource/1485592701000/kbchat/js/vendor/css3-mediaqueries.js"/>
+  <![endif]-->
+    
+    <script type="text/javascript">
+    $( document ).ready(function() {
+        //var pageUrl = "https://kb.netgear.comhttps://kb.netgear.com/30374/WNAP320-Firmware-Version-3-5-5-0";
+        history.pushState({},'',"https://kb.netgear.com/30374/WNAP320-Firmware-Version-3-5-5-0");
+    });
+    // Variable for populating the 'Recently Viewed Article' section on the right hand side navigation
+    var recentlyViewedArticlesTitle = "Recently Viewed Articles";
+    var relatedArticlesTitle = "Related articles";
+    
+    // Magnific Popup core JS file
+    var NTGR = NTGR || {};
+    NTGR.Config = {
+        close : 'Close',
+        twitterWS : '/en-us/system/ashx/SearchTwitter.ashx',
+        supportGetArticlesByLabel : 'Default.aspx/GetArticlesByLabel',
+        supportSearchArticlesByKeyword : 'search.aspx/SearchArticlesByKeyword',
+        supportSearch : 'search.aspx?search=',
+        supportSearchAutocomplete : 'https://community.netgear.com/t5/activecast/askanexpertpage/node-display-id/category%3AArlo?q=',
+        supportReadArticle : 'READ ARTICLE',
+        supportNoContent : 'No Content to Display',
+        supportTimeIcon : '/images/icon_stat_time.png',
+        supportTimeLabel : 'Last Published',
+        supportViewsIcon : '/images/icon_stat_views.png',
+        supportViewsLabel : 'Views',
+        supportFeaturedBoardName : 'Featured'
+    }
+    
+    
+    
+    Visualforce.remoting.Manager.invokeAction(
+        'NG_ArticleDetailController.getSupportModels',
+        function(result, event) {
+            if (event.status) {
+                
+                var source = source || [];
+                var sourceModels= JSON.parse(result);
+                //console.log(result);
+                $.each(sourceModels, function (i, item) {
+                    if (jQuery.trim(item.title).length>3){
+                        label = item.title + " / " + item.model.toUpperCase() + " " + item.version.toUpperCase();
+                    }else{
+                        label = item.model;
+                    }
+                    source.push({
+                        url: "http://www.netgear.com" + item.url,                 
+                        label: label,
+                        model: item.model,
+                        version : item.version
+                    });
+                });
+                $("#support-home-suggest").autocomplete({
+                    autoFocus: true,
+                    select: function (event, ui) {
+                        var text = jQuery.trim(ui.item.label).replace(/ /g, '')
+                        window.location.href = ui.item.url;
+                    },
+                    source: source,
+                    open: function () { },
+                    close: function () { }
+                });
+            }
+        }, 
+        {escape: false}
+    );
+    
+    </script>
+    
+  <script type="text/javascript">
+  function open_window(){
+                var pageURL    = $(location).attr("href");
+                var encodeduri = encodeURIComponent(pageURL);
+                pageURL        = 'https://my.netgear.com/Feedbackform?page='+encodeduri;
+                window.open(pageURL, "popupWindow", "width=600,height=600,scrollbars=yes");
+            } 
+</script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            survey.init();
+            
+    //Product List New
+    $('.text').hide();
+    $('.expander').click(function () {
+        // .parent() selects the A tag, .next() selects the P tag
+        $(this).parent().next().slideToggle(200);
+    });
+    $('.text').slideUp(200);
+    //Product List New
+        })
+            
+    </script>
+    
+
+<script type="text/javascript">
+
+    (function (i, s, o, g, r, a, m) {
+
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+            (i[r].q = i[r].q || []).push(arguments)
+
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-7254858-1', 'auto', { 'name': 'KBEN' });
+ga('create', 'UA-7254858-4', 'auto', { 'name': 'SupportEN' });
+ga('create', 'UA-7254858-18', 'auto', { 'name': 'CombinedNETEGAR' });
+ga('CombinedNETEGAR.set', 'metric1', 1);
+ga('KBEN.send', 'pageview');
+ga('SupportEN.send', 'pageview');
+ga('CombinedNETEGAR.send', 'pageview');
+</script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount','UA-9710087-41']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', 'true']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['global._setAccount','UA-51512133-1']);
+        _gaq.push(['global._setDomainName', 'none']);
+
+        _gaq.push(['global._setAllowLinker', 'true']);
+
+        _gaq.push(['global._trackPageview']);
+
+        (function() {
+
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';           
+
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        })();
+
+</script>
+
+
+
+
+<script type="text/javascript">
+var _vwo_code=(function(){
+var account_id=127383,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+
+    </head>
+<form id="articlePage:j_id40" name="articlePage:j_id40" method="post" action="/NG_ArticleDetail" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="articlePage:j_id40" value="articlePage:j_id40" />
+
+        <body class="home-nosearch">
+            <div id="container">
+                <header id="header">
+                    <div id="desktop-head">
+                        
+                        <div class="secondary-nav header_home">
+                            <div class="wrapper cf ">
+                                <div class="brand">
+                                    <a class="logo" href="http://www.netgear.com">
+                                        <img alt="NETGEAR logo" src="/resource/1485592701000/kbchat/images/netgear-logo.png" />
+                                    </a>
+                                    <a class="support-txt" href="http://www.netgear.com/support">Support</a>
+                                    <span class="support-txt" style="padding: 0px 0px 0px 0px !important;">|</span>
+                                    <a class="support-txt" href="https://community.netgear.com/t5/All-Communities/ct-p/English">Community</a>
+                                </div>
+                                
+                                <nav class="last list_country">
+                                    <ul class="sem">
+                                        <li class="country">
+                                            <a href="#">
+                                                <span class="main-country">United States (English)</span>
+                                                <img alt="Country name" src="/resource/1485592701000/kbchat/images/us_flag.png" />
+                                            </a>
+                                            
+                                            <div class="dropdown auto">
+                                                <nav class="cf drop-shadow curve">
+                                                    <ul class="sem">
+                                                        <li><a href="http://www.netgear.de/support" target="_blank">Deutschland (Deutsch)</a></li>
+                                                        <li><a href="http://www.netgear.es/support" target="_blank">Espa&ntilde;a (Espa&ntilde;ol)</a></li>
+                                                        <li><a href="http://www.netgear.fr/support" target="_blank">France (Fran&ccedil;ais)</a></li>
+                                                        <li><a href="http://www.netgear.it/support" target="_blank">Italia (Italiano)</a></li>
+                                                        <li><a href="http://www.netgear.ru/support" target="_blank">&#1056;&#1086;&#1089;&#1089;&#1080;&#1103; (&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;)</a></li>
+                                                        <li><a href="http://www.netgear.com/support/">United States (English)</a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                
+                                <nav class="social-nav">
+                                    <ul class="cf sem">
+                                        <li class="search_lis">
+                                            <a class="submit" href="#" id="search_icon" title="Search"></a>
+                                            <input id="search" placeholder="Search" type="text" />
+                                        </li>
+                                        <li class="list_top">
+                                            <a class="font_bold loguin" href="https://my.netgear.com/myNETGEAR/myProducts.asp">Log In</a>
+                                        </li>
+                                        <li class="list_top">
+                                            |
+                                        </li>
+                                        <li class="list_top">
+                                            <a class="font_bold loguin" href="https://my.netgear.com/register/register.aspx">Register</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        
+                        <div class="main-nav">
+                            <nav class="wrapper cf">
+                                <ul class="sem">
+                                    <li class="auto">
+                                        <a class="link" href="#">Log In</a>
+                                    </li>
+                                    <li class="auto">
+                                        <a class="link" href="#">Register</a>
+                                    </li>
+                                    <li class="auto">
+                                        <a class="link" href="#">Community</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    
+                    <div id="mobile-head">
+                        <div class="header-search highlight t1 disp-none">
+                            <div class="search_lis search_lis-mobile">
+                                <a class="submit" href="#" id="search_icon_mobile" title="Search"></a>
+                                <input id="search_mobile" placeholder="Search" type="text" />
+                            </div>
+                        </div>
+                        <div class="secondary-nav">
+                            <div class="wrapper cf">
+                                <nav class="first section support-mobile">
+                                    <ul class="sem">
+                                        <li>
+                                            <a href="http://www.netgear.com/support">Support</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <nav class="last">
+                                    <ul class="sem">
+                                        <li class="country">
+                                            <a href="#">
+                                                <img alt="Country name" src="/resource/1485592701000/kbchat/images/us_flag.png" />
+                                                <span class="main-country">United States (English)</span>
+                                            </a>
+                                            
+                                            <div class="dropdown auto">
+                                                <nav class="cf drop-shadow curve">
+                                                    <ul class="sem">
+                                                        <li><a href="http://www.netgear.de/support" target="_blank">Deutschland (Deutsch)</a></li>
+                                                        <li><a href="http://www.netgear.es/support" target="_blank">Espa&ntilde;a (Espa&ntilde;ol)</a></li>
+                                                        <li><a href="http://www.netgear.fr/support" target="_blank">France (Fran&ccedil;ais)</a></li>
+                                                        <li><a href="http://www.netgear.it/support" target="_blank">Italia (Italiano)</a></li>
+                                                        <li><a href="http://www.netgear.ru/support" target="_blank">&#1056;&#1086;&#1089;&#1089;&#1080;&#1103; (&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;)</a></li>
+                                                        <li><a href="http://www.netgear.com/support/">United States (English)</a></li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                
+                                <nav class="social-nav">
+                                    <ul class="cf sem">
+                                        <li>
+                                            <a href="#">MyNETGEAR Account</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        
+                        <div class="main">
+                            <div>
+                                <div class="wrapper cf">
+                                    <a class="show-nav-hh"></a>
+                                    <a class="search-hh"></a>
+                                    <a class="logo" href="http://www.netgear.com">
+                                        <img alt="NETGEAR logo" src="/resource/1485592701000/kbchat/images/netgear-logo.png" />
+                                    </a>
+                                    <span class="suppmess"><a class="support-txt" href="http://www.netgear.com/support">Support</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="main-nav">
+                            <nav class="wrapper cf">
+                                <ul class="sem">
+                                    <li class="auto">
+                                        <a class="link" href="https://my.netgear.com/myNETGEAR/myProducts.asp">Log In</a>
+                                    </li>
+                                    <li class="auto">
+                                        <a class="link" href="https://my.netgear.com/register/register.aspx">Register</a>
+                                    </li>
+                                    <li class="auto">
+                                        <a class="link" href="#">Community</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+                
+                <main class="cf" data-controller="SupportProduct">
+                    <div id="kb-article-page">
+                        <section class="highlight t1 bottom-highlight article">
+                            <div class="wrapper center">
+                                <div class="inner">
+                                    <div class="col"><span id="articlePage:j_id40:articleStats">
+                                            <p class="breadcrumbs"><a href="http://www.netgear.com/support">NETGEAR Support</a> </p>
+                                            <h2>WNAP320 Firmware Version 3.5.5.0</h2>
+                                            <p class="line-break">
+                                                Was this article helpful?&nbsp; 
+                                                <span class="fa fa-thumbs-o-up"></span>
+                                                &nbsp;<a href="#" id="articlePage:j_id40:j_id43" name="articlePage:j_id40:j_id43" onclick="A4J.AJAX.Submit('articlePage:j_id40',event,{'similarityGroupingId':'articlePage:j_id40:j_id43','parameters':{'articlePage:j_id40:j_id43':'articlePage:j_id40:j_id43'} } );return false;">Yes</a>
+                                                &nbsp;&nbsp;
+                                                <span class="fa fa-thumbs-o-down"></span>
+                                                &nbsp;<a href="#" id="articlePage:j_id40:j_id46" name="articlePage:j_id40:j_id46" onclick="A4J.AJAX.Submit('articlePage:j_id40',event,{'similarityGroupingId':'articlePage:j_id40:j_id46','parameters':{'articlePage:j_id40:j_id46':'articlePage:j_id40:j_id46'} } );return false;">No</a>
+                                            </p></span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </section>
+                        <section class="home-search-box">
+                            <section class="home-search-box-1 col articlecol-lf">
+                                <div class="article-content"><p style="COLOR: #ff0000">NOTE: Before upgrading to 3.5.5.0, please see the upgrade process in detail.</p>
+<p><strong>New Features:</strong></p>
+<ol>
+<li>First version where Business central 2.0 is supported.</li>
+<li>Switch between Stand alone and Business Central 2.0 (BC) mode in AP.<br />
+a.&#160;&#160;&#160;&#160;&#160;Use AP local GUI BC tab "enable/disable" option to switch from standalone to BC and vice versa.<br />
+b.&#160;&#160;&#160;&#160;&#160;When cloud managed, AP will home in on <a style="TEXT-DECORATION: underline" href="https://bc.netgear.com">https://bc.netgear.com</a>.<br />
+c.&#160;&#160;&#160;&#160;&#160;NETGEAR's Business Central portal (<a style="TEXT-DECORATION: underline" href="https://bc.netgear.com">https://bc.netgear.com</a>/) supports configuration, management and monitoring.
+<ul>
+<li>&#160;Visit&#160;<a style="TEXT-DECORATION: underline" href="http://www.netgear.com/business/products/wireless/wireless-management/business-central.aspx">http://www.netgear.com/business/products/wireless/wireless-management/business-central.aspx</a> to know all the features supported in this mode.</li>
+</ul>
+</li>
+<li>Business Central 2.0 provides "Bandwidth limitation" per wireless network.</li>
+<li>Features and bug fixes are on par with 3.0.5.0 release.<br /></li>
+</ol>
+<p><strong>Bug Fixes</strong></p>
+<ul>
+<li>Security Vulnerabilities fix for standalone mode.</li>
+<li>Fix for DHCP server running on Master AP is not working when Multipoint Bridge is configured.</li>
+<li>Fix for Wireless Distribution System (WDS) breaks if the WPA supplicant killed in P2P slave.</li>
+<li>Fixed the Restore settings option is not working in local UI.</li>
+<li>Fixed AP hanging issue upon continuous refreshing of the UI login page.</li>
+<li>Fix for Bogus neighbor APs listed in Business Central account.</li>
+</ul>
+<p><strong>Known issues</strong></p>
+<ul>
+<li>A wireless network has a configuration of Captive portal / hotspot with non-management VLAN is not working.</li>
+<li>Rogue AP table may not list all neighbor APs.</li>
+<li>There are known client disconnect issue with MacBook Pro running OS x v10.8.5 (Mountain Lion), please upgrade to latest OS x.&#160;&#160;</li>
+</ul>
+<p><strong>NOTES :</strong></p>
+<ul>
+<li>The default IP address of the AP is 192.168.0.100</li>
+<li>Enable/Disable Business central (Cloud Enabled) option resets the AP to factory default and retains IP, DNS and management VLAN.</li>
+<li>In the following scenarios AP is expected to reboot automatically for the configuration to take effect:<br />
+a.&#160;&#160;&#160;&#160;&#160;Change Country/Region<br />
+b.&#160;&#160;&#160;&#160;&#160;After Firmware upgrade<br />
+c.&#160;&#160;&#160;&#160;&#160;After Restore Configuration Settings<br />
+d.&#160;&#160;&#160;&#160;&#160;Reset factory defaults<br />
+e.&#160;&#160;&#160;&#160;&#160;Cloud enable/disable<br />
+In all the other conditions AP is not supposed to reboot automatically.</li>
+</ul>
+<p><strong>To Upgrade</strong></p>
+<ul>
+<li>Download the new software and save it to a convenient folder location.&#160;The firmware filename after extracting is <span style="FONT-WEIGHT: bold">WNAP320_V3.5.5.0.tar</span><br />
+<br />
+<b style="BACKGROUND-COLOR: #ffff00">Download link :</b> <a style="TEXT-DECORATION: underline; BACKGROUND-COLOR: #ffff00" href="http://www.downloads.netgear.com/files/GDC/WNAP320/WNAP320_V3.5.5.0.zip">http://www.downloads.netgear.com/files/GDC/WNAP320/WNAP320_V3.5.5.0.zip</a><br /></li>
+<li>Login to the access point web management GUI.</li>
+<li>Select&#160;<strong>Maintenance</strong>&#160;&gt;&#160;<strong>Upgrade</strong>&#160;&gt;&#160;<strong>Firmware Upgrade</strong>.</li>
+<li>Click Browse and browse to the location of the software upgrade file that you just downloaded.</li>
+<li>Click Apply. The upgrade process typically takes at least 3 minutes.<br />
+<strong>Warning:</strong>&#160;When uploading software to the WNAP320 Wireless Access Point, it is important not to interrupt the Web browser by closing the window, clicking a link, or loading a new page. If the browser is interrupted, the upload might fail, corrupt the software, and render the WNAP320 access point completely inoperable.</li>
+<li>When the upload is completed, your wireless access point automatically restarts.</li>
+<li>If you decide to use the AP as standalone image, log into the AP and disable Cloud management.</li>
+<li>If you decide to use the AP in cloud management, factory reset the AP and add the AP to BCWM portal (https://bc.netgear.com).</li>
+</ul>
+<p><strong style="COLOR: #ff0000">READ THIS BEFORE ATTEMPT TO UPGRADE</strong></p>
+<p>Prior to upgrade to v3.x, the device MUST be running the firmware version indicate in the table below. Upgrading from older firmware version to v3.x without the required running firmware version will cause the user not able to access the device Web interface. The only way to recover is by factory resetting the device.</p>
+<table cellspacing="0" cellpadding="0" border="1">
+<tbody>
+<tr>
+<td style="WIDTH: 139px">&#160;Case</td>
+<td style="WIDTH: 499px">
+<p>Notes</p>
+</td>
+</tr>
+<tr>
+<td style="WIDTH: 139px">Brand new AP to Standalone</td>
+<td style="WIDTH: 499px">
+<p>Disable Cloud management.<br />
+Download latest 3.5.x from support website.<br />
+Load it on the AP and use it as standalone from local AP GUI.<br /></p>
+</td>
+</tr>
+<tr>
+<td style="WIDTH: 139px">Brand New AP with 3.0.x image to Business Central managed AP</td>
+<td style="WIDTH: 499px">
+<p>Download latest 3.5.x from support website.<br />
+Load it on the AP.<br />
+Factory reset the AP.<br />
+Add the AP to BC portal.<br />
+AP will automatically join BC once it has access to internet.<br /></p>
+</td>
+</tr>
+<tr>
+<td style="WIDTH: 139px">Brand New AP with 3.5.x image to Business Central managed AP</td>
+<td style="WIDTH: 499px">
+<p>Factory reset the AP.<br />
+Add the AP to BC portal.<br />
+AP will automatically join BC once it has access to internet.<br /></p>
+</td>
+</tr>
+<tr>
+<td style="WIDTH: 139px">Standalone to Business Central managed AP</td>
+<td style="WIDTH: 499px">
+<p>Download latest 3.5.x from support website.<br />
+Load it on the AP.<br />
+Factory reset the AP.<br />
+Add the AP to BC portal.<br />
+AP will automatically join BC once it has access to the Internet.<br /></p>
+</td>
+</tr>
+<tr>
+<td style="WIDTH: 139px">
+<p>Working Standalone to Standalone</p>
+</td>
+<td style="WIDTH: 499px">
+<p>Case 1: APs running in 3.x can upgrade to 3.5.5.0 directly.<br />
+Case 2: AP running 2.x, first upgrade to 2.1.6. Then upgrade to 3.5.5.0<br />
+<br />
+NOTE: Take back-up of the current configurations before any upgrade. Save it at a secure place.<br /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="ListParagraph1" style="MARGIN-LEFT: 0in; mso-add-space: auto"><span class="MsoHyperlink"><b><span style="TEXT-DECORATION: underline; FONT-FAMILY: ; COLOR: red; LINE-HEIGHT: 115%; mso-bidi-font-size: 11.0pt"><span style="FONT-FAMILY: Times New Roman">FIRMWARE UPGRADE SEQUENCE TAB</span><span style="FONT-FAMILY: Times New Roman">LE</span></span></b></span></p>
+<ol>
+<li>AP running in 3.0.x can upgrade to 3.5.5.0 directly.</li>
+<li>AP running in 2.x&#160;&#160;should follow below sequence for firmware upgrade to 3.5.x.</li>
+</ol>
+<table class="MsoNormalTable" style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-table-layout-alt: fixed; mso-border-alt: solid #CCCCCC .75pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 0in 0in 0in" cellspacing="0" cellpadding="0" width="630" border="1">
+<tbody>
+<tr style="HEIGHT: 15.75pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<td style="BORDER-TOP: black 1pt solid; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 33.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt" width="45">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">S No</span></p>
+</td>
+<td style="BORDER-TOP: black 1pt solid; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 76.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-left-alt: solid #CCCCCC .75pt" width="102">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">Product</span></p>
+</td>
+<td style="BORDER-TOP: black 1pt solid; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 117pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-left-alt: solid #CCCCCC .75pt" width="156">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">RC 3-digit (M2) previous FW Version</span></p>
+</td>
+<td style="BORDER-TOP: black 1pt solid; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 86.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-left-alt: solid #CCCCCC .75pt" width="115">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">RC 3-digit (M2) FW Version</span></p>
+</td>
+<td style="BORDER-TOP: black 1pt solid; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 75.65pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-left-alt: solid #CCCCCC .75pt" width="101">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">RC 3-digit (M4) FW Version</span></p>
+</td>
+<td style="BORDER-TOP: black 1pt solid; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 83.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-left-alt: solid #CCCCCC .75pt" width="111">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">Upgrade time</span></p>
+</td>
+</tr>
+<tr style="HEIGHT: 15.75pt; mso-yfti-irow: 1">
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 33.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-top-alt: solid #CCCCCC .75pt" width="45">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">1</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 76.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="102">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">WNDAP660</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 117pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="156">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">2.0.0, 2.0.1, 2.0.2, 2.0.4</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 86.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="115">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V2.0.5</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 75.65pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="101">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V3.5.5.0</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 83.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="111">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">~ 3 minutes</span></p>
+</td>
+</tr>
+<tr style="HEIGHT: 15.75pt; mso-yfti-irow: 2">
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 33.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-top-alt: solid #CCCCCC .75pt" width="45">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">2</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 76.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="102">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">WNDAP360</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 117pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="156">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">2.1.11</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 86.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="115">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V2.1.12</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 75.65pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="101">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V3.5.5.0</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 83.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="111">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">~ 3 minutes</span></p>
+</td>
+</tr>
+<tr style="HEIGHT: 15.75pt; mso-yfti-irow: 3">
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 33.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-top-alt: solid #CCCCCC .75pt" width="45">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">3</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 76.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="102">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">WNDAP350</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 117pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="156">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">2.1.9</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 86.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="115">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V2.1.9</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 75.65pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="101">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V3.5.5.0</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 83.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="111">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">~ 3 minutes</span></p>
+</td>
+</tr>
+<tr style="HEIGHT: 15.75pt; mso-yfti-irow: 4">
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 33.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-top-alt: solid #CCCCCC .75pt" width="45">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">4</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 76.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="102">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">WNAP320</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 117pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="156">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">2.1.5</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 86.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="115">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V2.1.6</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 75.65pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="101">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V3.5.5.0</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 83.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="111">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">~ 3 minutes</span></p>
+</td>
+</tr>
+<tr style="HEIGHT: 15.75pt; mso-yfti-irow: 5; mso-yfti-lastrow: yes">
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 33.75pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: black 1pt solid; PADDING-RIGHT: 2.25pt; mso-border-alt: solid black .75pt; mso-border-top-alt: solid #CCCCCC .75pt" width="45">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">5</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 76.5pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="102">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">WNAP210v2</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 117pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="156">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">2.1.4</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 86.35pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="115">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V2.1.5, V2.1.6</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 75.65pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="101">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">V3.5.5.0</span></p>
+</td>
+<td style="BORDER-TOP: medium none; HEIGHT: 15.75pt; BORDER-RIGHT: black 1pt solid; WIDTH: 83.25pt; BORDER-BOTTOM: black 1pt solid; PADDING-BOTTOM: 1.5pt; PADDING-TOP: 1.5pt; PADDING-LEFT: 2.25pt; BORDER-LEFT: medium none; PADDING-RIGHT: 2.25pt; mso-border-left-alt: #CCCCCC; mso-border-top-alt: #CCCCCC; mso-border-bottom-alt: black; mso-border-right-alt: black; mso-border-style-alt: solid; mso-border-width-alt: .75pt" width="111">
+<p class="MsoNormal" style="MARGIN-BOTTOM: 12pt"><span style="FONT-FAMILY: Times New Roman; mso-bidi-font-weight: bold">~ 3 minutes</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&#160;<span style="FONT-WEIGHT: bold">Note:</span></p>
+<ol style="FONT-WEIGHT: normal">
+<li><span style="FONT-WEIGHT: normal">Upgrade initiated from other 2.x firmware version is not supported. The side effect of the wrong firmware upgrade will block users to login to the AP and sometimes allow user to login but the page shows fatal error without any tabs. Doing manual factory reset by hardware buttons and also through SSH/Telnet will recover the AP from the side effect mentioned but the entire configuration will get lost.<br />
+<br />
+<span style="FONT-WEIGHT: bold">Example firmware upgrade sequence for WNAP320 from 2.x:</span><br />
+<span style="FONT-WEIGHT: bold">V2.1.5 -&gt; V2.1.6 -&gt; V3.5.5.0 - Correct sequence<br /></span></span></li>
+<li><span style="FONT-WEIGHT: normal">Downgrade from v3.x versions to 2.x image is not supported without a factory reset.</span></li>
+<li><span style="FONT-WEIGHT: normal">Firmware upgrade from v2.x to v3.0.x will take about 8 minutes. Upgrade from v3.x to v3.x will take about 2 minutes.</span></li>
+<li><span style="FONT-WEIGHT: normal">V2.x firmware images for the product can be downloaded from the Netgear download center <a style="TEXT-DECORATION: underline" href="http://downloadcenter.netgear.com/">http://downloadcenter.netgear.com/</a><br /></span></li>
+</ol>
+<p><strong>Method to factory reset the AP via CLI</strong></p>
+<p>Using putty/tera term telent/ssh to the AP and run “restore-configuration /etc/default-config” or&#160; “restore-factory-default”</p>
+<p><font size="1">This product includes software code developed by third parties, including software code subject to the GNU General Public License ("GPL") or GNU Lesser General Public License ("LGPL"). As applicable, the terms of the GPL and LGPL, and information on obtaining access to the GPL Code and LGPL Code used in this product, are available to you at <a style="TEXT-DECORATION: underline" href="http://kb.netgear.com/app/answers/detail/a_id/2649"><font color="#2462AF">NETGEAR's Open Source Code Web page</font></a>. The GPL Code and LGPL Code used in this product is distributed WITHOUT ANY WARRANTY and is subject to the copyrights of one or more authors. For details, see the GPL Code and LGPL Code for this product and the terms of the GPL and LGPL.</font></p>
+                                    <div class="guided-assist"><span id="articlePage:j_id40:j_id59">
+    
+    <script type="text/javascript">
+        function doSave(sel) {
+            myFunc(sel.value);
+        }
+    </script>
+    <style>
+    .bPageBlock {
+        background-color:#ffffff !important;
+        border:0;
+    }
+   
+    
+    </style>
+    
+   <div Id="GA_Flow_Id">  </div>  <br /><span id="articlePage:j_id40:j_id59:comp:nextQuestSection"><script id="articlePage:j_id40:j_id59:comp:j_id69" type="text/javascript">myFunc=function(selectedValuess){A4J.AJAX.Submit('articlePage:j_id40',null,{'similarityGroupingId':'articlePage:j_id40:j_id59:comp:j_id69','parameters':{'selectedValuess':(typeof selectedValuess!='undefined'&&selectedValuess!=null)?selectedValuess:'','articlePage:j_id40:j_id59:comp:j_id69':'articlePage:j_id40:j_id59:comp:j_id69'} } )};
+</script></span></span>
+                                    </div>
+                                    <section>
+                                        <p class="last-updated">
+                                            Last Updated:11/28/2016
+                                            <span class="divider">|</span>
+                                            Article ID: 30374
+                                        </p>
+                                    </section>
+                                </div>
+                                <section class="article-helpful"><span id="articlePage:j_id40:articleStatsMessage">
+                                        <span class="inline-block">
+                                            <h3>Was this article helpful?</h3><a class="btn helpful" href="#" id="articlePage:j_id40:j_id76" name="articlePage:j_id40:j_id76" onclick="A4J.AJAX.Submit('articlePage:j_id40',event,{'similarityGroupingId':'articlePage:j_id40:j_id76','parameters':{'articlePage:j_id40:j_id76':'articlePage:j_id40:j_id76'} } );return false;"><span class="fa fa-thumbs-o-up"></span> Yes</a><a class="btn helpful" href="#" id="articlePage:j_id40:j_id78" name="articlePage:j_id40:j_id78" onclick="A4J.AJAX.Submit('articlePage:j_id40',event,{'similarityGroupingId':'articlePage:j_id40:j_id78','parameters':{'articlePage:j_id40:j_id78':'articlePage:j_id40:j_id78'} } );return false;"><span class="fa fa-thumbs-o-down"> No</span></a>
+                                        </span></span>
+                                </section>
+                            </section>
+                            
+                            <section class="home-search-box-2 col">
+                                <section class="Article-appliesto">
+                                    <h4>This article applies to:</h4>
+                                    <ul class="category-names">
+                                            <li class="fa"><a href="javascript:void(0);" id="hidden-list-open">Access point N (1)</a>
+                                                <ul class="hidden-article-list">
+                                                        <li>
+                                                            <a href="https://www.netgear.com/support/product/WNAP320">WNAP320</a>
+                                                        </li>
+                                                </ul>
+                                            </li>
+                                    </ul>
+                                    <a class="left-arrow" onclick="TFF_Lightbox_open();">How to Find Your Model Number</a>
+                                </section>
+                                
+                                <section class="article-related">
+                                    <div class="right-panel" id="RelatedAnswers">
+                                    </div>
+                                </section>
+                                <section class="article-related">
+                                    <div id="PreviousAnswers">
+                                    </div>
+                                </section>
+                                <section class="looking-more">
+                                    <h4>Looking for more about your product?</h4>
+                                    <div>
+                                        <p>Get information, documentation, videos and more for your specific product.</p>
+                                        <input id="support-home-suggest" placeholder="Start typing your model number here..." type="text" />
+                                    </div>
+                                </section>
+                            </section>
+                            
+                        </section>
+                        <section class="highlight t1 bottom-highlight ask-community">
+                            <div class="wrapper center">
+                                <div class="inner">
+                                    <div class="col">
+                                        <h2>Can&#8217;t find what you&#8217;re looking for?</h2>
+                                        <p>Quick and easy solutions are available for you in the NETGEAR community.</p>
+                                    </div>
+                                    <div class="col">
+                                        <a class="btn" href="https://community.netgear.com/t5/All-Communities/ct-p/English">Ask the Community</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contact-support">
+                            <div class="slide-drawer">
+                                <div class="bottom-highlight">
+                                    <div class="wrapper center">
+                                        <div class="inner">
+                                            <div class="col">
+                                                <h2>Need to Contact Support?</h2>
+                                                <p>With NETGEAR&#8217;s round-the-clock premium support, help is just a phone call away.</p>
+                                            </div>
+                                            <div class="col">
+                                                <a class="cta" data-hide-text="Hide Support Options" data-show-text="See Support Options" href="#">See Support Options</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="drawer">
+                                    <div class="wrapper">
+                                        <div class="block">
+                                            <h3>Complimentary Support</h3>
+                                            <div class="grid">
+                                                <div class="live-chat-support-col">
+                                                    <p>NETGEAR provides complimentary technical support for NETGEAR products for 90 days from the original date of purchase.</p>
+                                                    <a class="arrow" href="http://www.netgear.com/support/contact.aspx" target="_blank">Contact Support</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block">
+                                            <h3>NETGEAR Premium Support</h3>
+                                            <div class="grid">
+                                                <div class="col">
+                                                    <h6>GearHead Support for Home Users</h6>
+                                                    <p>GearHead Support is a technical support service for NETGEAR devices and all other connected devices in your home. Advanced remote support tools are used to fix issues on any of your devices. The service includes support for the following:</p>
+                                                    <ul>
+                                                        <li>Desktop and Notebook PCs, Wired and Wireless Routers, Modems, Printers, Scanners, Fax Machines, USB devices and Sound Cards</li>
+                                                        <li>Windows Operating Systems (2000, XP or Vista), MS Word, Excel, PowerPoint, Outlook and Adobe Acrobat</li>
+                                                        <li>Anti-virus and Anti-Spyware: McAfee, Norton, AVG, eTrust and BitDefender</li>
+                                                    </ul>
+                                                    <a class="arrow" href="http://gearhead.netgear.com/" target="_blank">Learn More</a>
+                                                </div>
+                                                <div class="col">
+                                                    <h6>ProSUPPORT Services for Business Users</h6>
+                                                    <p>NETGEAR ProSUPPORT services are available to supplement your technical support and warranty entitlements. NETGEAR offers a variety of ProSUPPORT services that allow you to access NETGEAR's expertise in a way that best meets your needs:</p>
+                                                    <ul>
+                                                        <li>Product Installation</li>
+                                                        <li>Professional Wireless Site Survey</li>
+                                                        <li>Defective Drive Retention (DDR) Service</li>
+                                                    </ul>
+                                                    <a class="arrow" href="http://prosupport.netgear.com/" target="_blank">Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </main>
+                <div class="fuzzyfish-lightbox-bg">
+                    <div class="fuzzyfish-lightbox-content">
+                        <a class="fuzzyfish-close" href="javascript:TFF_Lightbox_close();"><i class="fa fa-times"></i></a>
+                        <h1>Where to Find Your Model Number</h1>
+                        <p>To find the model/version number, check the bottom or back panel of your NETGEAR device.</p>
+                        <hr />
+                        <p>Select a product or category below for specific instructions.</p>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/NRouter_Lbl_Agile_1.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/nrouter.png" />
+                                <h3>N Routers</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/Nighthawk_Lbl_Agile_1.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/nighthawk.png" />
+                                <h3>Nighthawk Routers</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/Powerline_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/powerline.png" />
+                                <h3>Powerline and Wall Plug Extenders</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/Cable_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/cable-dsl.png" />
+                                <h3>Cable and DSL Modem Routers</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/ReadyNAS_Lbl_Agile_1.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/readynas.png" />
+                                <h3>ReadyNAS Network Storage</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/Switch2_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/switches.png" />
+                                <h3>Switches</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/AccessPoint_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/accesspoint.png" />
+                                <h3>Wireless Access Points</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/VPN_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/others.png" />
+                                <h3>Other Business Products</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/ArloVMB_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/arlo.png" />
+                                <h3>Arlo</h3>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="thumb" href="/resource/1485592701000/kbchat/images/model-number-popup/AirCard_Lbl_Agile.jpg">
+                                <img src="/resource/1485592701000/kbchat/images/model-number-popup/mobile-broadband.png" />
+                                <h3>Mobile Broadband</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <footer class="cf" id="footer">
+                    <div class="brand">
+                        <a class="logo" href="http://www.netgear.com">
+                            <img alt="NETGEAR logo" src="/resource/1485592701000/kbchat/images/netgear-logo.png" />
+                        </a>
+                    </div>
+                    
+                    <div class="secondary-nav">
+                        <div id="footerinnerContainer">
+                            
+                            <a class="btn feedback" href="javascript:void(0)" onclick="open_window() ">Feedback</a>
+                            <nav class="social-nav" style="padding-right: 10px;">
+                                <ul class="sem cf">
+                                    <li>
+                                        <a class="ir" data-icon="f" href="http://facebook.com/netgear" target="_blank" title="Facebook">Facebook</a>
+                                    </li>
+                                    <li>
+                                        <a class="ir" data-icon="t" href="http://twitter.com/netgear" target="_blank" title="Twitter">Twitter</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a class="ir" data-icon="y" href="http://youtube.com/netgear" target="_blank" title="Youtube">Youtube</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="last list_country" style="float:none;">
+                                <ul class="sem">
+                                    <li class="country dropup">
+                                        <a href="#">
+                                            <span class="main-country">United States (English)</span>
+                                            <img alt="Country name" src="/resource/1485592701000/kbchat/images/us_flag.png" />
+                                        </a>
+                                        
+                                        <div class="dropdown auto">
+                                            <nav class="cf drop-shadow curve">
+                                                <ul class="sem">
+                                                    <li><a href="http://www.netgear.de/support" target="_blank">Deutschland (Deutsch)</a></li>
+                                                        <li><a href="http://www.netgear.es/support" target="_blank">Espa&ntilde;a (Espa&ntilde;ol)</a></li>
+                                                        <li><a href="http://www.netgear.fr/support" target="_blank">France (Fran&ccedil;ais)</a></li>
+                                                        <li><a href="http://www.netgear.it/support" target="_blank">Italia (Italiano)</a></li>
+                                                        <li><a href="http://www.netgear.ru/support" target="_blank">&#1056;&#1086;&#1089;&#1089;&#1080;&#1103; (&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;)</a></li>
+                                                        <li><a href="http://www.netgear.com/support/">United States (English)</a></li>      
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="wrapper copyright">
+                        <p>&copy; 1996-2016 NETGEAR<sup>&reg;</sup> <a href="http://www.netgear.com/about/privacy-policy/" id="terms">Terms and Conditions</a></p>
+                    </div>
+                </footer>
+            </div>
+        </body><div id="articlePage:j_id40:j_id91"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201703221725520830" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklrZHZiWGx6WjBoWVEzQm9OSE0wY21SS1EyVkZjVFZmUW0xcE1tbFNNbTh0Y2psTGMxaFFjVVY1ZUZsY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkRNd01EQXdNREF3TUhoelZsd2lMRndpZGx3aU9sd2lNREF3TURBd01EQXdNREF3TURBd1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05UZ3dNREF3TURCQ1JXOW1NVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFE1TURJMk16UXhNVGd6TVN3aVpYaHdJam93ZlE9PS4uTlJRejRtd2lia1lXXzRtRi1LUXUydTlqdWpTejFGSFlVb01CT25yclBMVT0=" /></span></span>
+</html><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["articlePage:j_id40"]);
+
+});</script>
